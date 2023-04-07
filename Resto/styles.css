@@ -1,0 +1,112 @@
+/*NAVBAR*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh 8% 3vh 8%;
+    transition: background 140ms ease-in-out 140ms,transform 140ms ease-in-out;
+}
+
+nav .nav{
+    flex: 1 1 0px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0px;
+    align-items: center;
+    font-size: 17px;
+}
+
+nav ul li{
+    padding:  0 10px 0 10px;
+}
+
+nav .title{
+    text-align: center;
+    font-size:  1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .ig{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+/*HERO*/
+
+
+.hero{
+    width: 50%;
+    margin:0px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    padding:15vh 3vh 3vh 3vh;
+}
+
+header h1.adresse{
+    font-size: 60px;
+    padding: 2vh 2vh 8vh 2vh;
+    letter-spacing: -5px;
+}
+
+header .adresse{
+    max-width: 600px;
+}
+
+header img{
+    width: 800px;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+header h1.horaires{
+    font-size: 60px;
+    padding: 8vh 2vh 2vh 2vh;
+    letter-spacing: -5px;
+}
+
+
+
+@media (max-width: 1700px) {
+
+    header img {
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+    
+    nav{
+        padding: 3vh 3vh 3vh 3vh;
+    }
+
+}
+
+@media (max-width: 640){
+    header img{
+        width: 80%;
+    }     
+}
+
+
+
